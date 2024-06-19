@@ -10,7 +10,7 @@ export const LoginPage = () => {
   }
 
   return (
-    <div className='container p-20'>
+    <div className='container p-5 flex justify-center items-center'>
         <h1>LoginPAge</h1>
         <hr />
 

@@ -48,27 +48,6 @@ export const Navbar = () => {
               </NavLink>
             </li>
 
-            <li>
-              <NavLink
-                to="/hero"
-                className={({ isActive }) =>
-                  isActive === true ? "text-red-500" : "text-white"
-                }
-              >
-                Hero
-              </NavLink>
-            </li>
-
-            <li>
-              <NavLink
-                to="/search"
-                className={({ isActive }) =>
-                  isActive === true ? "text-red-500" : "text-white"
-                }
-              >
-                Search
-              </NavLink>
-            </li>
           </ul>
         </div>
         <div className="flex justify-end items-center gap-6">
